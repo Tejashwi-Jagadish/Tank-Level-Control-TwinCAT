@@ -166,4 +166,3 @@ PLCstudent
 
 **Tejashwi Jagadish**
 University West – Department of Engineering Science
-Course: PLC Programming (Tank Level Control Lab)
