@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="MAIN" Id="{339c9723-049f-4d8c-a8c3-4bc9c78b41ed}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+    levelInt : INT;
+    pumpCalc : INT;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[
+(* On/Off tank control *)
+
+IF GVL.iwActualLevel < 40 THEN
+    GVL.qwPumpSpeed := 60;
+    GVL.qsStatusText := 'Low level';
+
+ELSIF GVL.iwActualLevel > 60 THEN
+    GVL.qwPumpSpeed := 0;
+    GVL.qsStatusText := 'High level';
+
+ELSE
+    GVL.qwPumpSpeed := 40;
+    GVL.qsStatusText := 'Normal level';
+END_IF;
+
+
+(* P controller *)
+
+levelInt := WORD_TO_INT(GVL.iwActualLevel);
+
+pumpCalc := (50 - levelInt) * 10;
+
+IF pumpCalc < 0 THEN
+    pumpCalc := 0;
+END_IF;
+
+GVL.qwPumpSpeed := INT_TO_WORD(pumpCalc);
+]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

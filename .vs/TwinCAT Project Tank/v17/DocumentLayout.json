@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alpho\\Desktop\\TwinCAT Project Tank\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FF844F5-6BA6-4483-836F-BDAD3CA4DD9F}|TwinCAT Project Tank\\PLCsim\\PLCsim.plcproj|C:\\Users\\alpho\\Desktop\\TwinCAT Project Tank\\TwinCAT Project Tank\\PLCsim\\VISUs\\Visualization.TcVIS||{CFF47BB1-5559-4BDE-A2AF-06B30BC64F6C}",
+      "RelativeMoniker": "D:0:0:{6FF844F5-6BA6-4483-836F-BDAD3CA4DD9F}|TwinCAT Project Tank\\PLCsim\\PLCsim.plcproj|solutionrelative:TwinCAT Project Tank\\PLCsim\\VISUs\\Visualization.TcVIS||{CFF47BB1-5559-4BDE-A2AF-06B30BC64F6C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE477E90-3BC9-4115-8C13-8D5729903332}|TwinCAT Project Tank\\PLCstudent\\PLCstudent.plcproj|C:\\Users\\alpho\\Desktop\\TwinCAT Project Tank\\TwinCAT Project Tank\\PLCstudent\\POUs\\MAIN.TcPOU||{CFF47BB1-5559-4BDE-A2AF-06B30BC64F6C}",
+      "RelativeMoniker": "D:0:0:{FE477E90-3BC9-4115-8C13-8D5729903332}|TwinCAT Project Tank\\PLCstudent\\PLCstudent.plcproj|solutionrelative:TwinCAT Project Tank\\PLCstudent\\POUs\\MAIN.TcPOU||{CFF47BB1-5559-4BDE-A2AF-06B30BC64F6C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 176,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MAIN",
+              "DocumentMoniker": "C:\\Users\\alpho\\Desktop\\TwinCAT Project Tank\\TwinCAT Project Tank\\PLCstudent\\POUs\\MAIN.TcPOU",
+              "RelativeDocumentMoniker": "TwinCAT Project Tank\\PLCstudent\\POUs\\MAIN.TcPOU",
+              "ToolTip": "MAIN [TwinCAT Project Tank.PLCstudent]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-07T00:15:35.336Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 230,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Visualization",
+              "DocumentMoniker": "C:\\Users\\alpho\\Desktop\\TwinCAT Project Tank\\TwinCAT Project Tank\\PLCsim\\VISUs\\Visualization.TcVIS",
+              "RelativeDocumentMoniker": "TwinCAT Project Tank\\PLCsim\\VISUs\\Visualization.TcVIS",
+              "ToolTip": "Visualization [TwinCAT Project Tank.PLCsim]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-06T14:28:55.678Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
